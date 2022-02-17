@@ -22,7 +22,7 @@ const corsOptions = {
 } 
 
 //Habilitar cors
-app.use(cors(corsOptions));
+app.use(cors());
 
 //Conectar DB.
 connectDB();
